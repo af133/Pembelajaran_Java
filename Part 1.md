@@ -39,6 +39,7 @@ Variabel itu kayak kotak harta karun yang nyimpen sesuatu yang berharga. 💖✨
 Contohnya:
 
 ```java
+//tipe_data nama_data = nilai_data
 int angka = 2;
 String nama = "Andre Firmansyah";
 ```
@@ -175,9 +176,13 @@ Modulus: 0
 ## 🎉 Kesimpulan
 Gimana? Seru kan belajar Java? 😆
 Kita udah bahas:
+
 ✅ Cara menampilkan output
+
 ✅ Variabel dan input dari user
+
 ✅ Operator logika buat pengambilan keputusan
+
 ✅ Operator matematika buat perhitungan
 
 Ayo terus latihan dan eksplorasi biar makin jago! 🔥 Happy coding! 🚀
