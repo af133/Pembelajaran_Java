@@ -70,4 +70,17 @@ Nama anda: Andre Firmansyah
 2 // memberikan inputan 2
 Angka: 2
 ```
+# Operator logika
+Di bawah ini merupakan operator logika yang harus kalian ingat:
+
+**1. AND ==> &&**
+**2. OR ==> ||**
+**3. NOT ==> !**
+**4. Lebih dari ==> >**
+**5. Kurang dari ==> <**
+**6. Lebih dari atau sama dengan ==> >=**
+**7. Kurang dari atau sama dengan ==> <=**
+
+
+
 
