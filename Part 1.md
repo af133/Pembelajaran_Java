@@ -22,7 +22,7 @@ Hasil:
 ```
 I Love You
 ```
-# # Varibel
+# 🔹 Varibel
 tipe_data nama_variable = nilai variable;
 
 Contoh:
@@ -45,7 +45,7 @@ Hasil:
 ```
 2
 ```
-# # Memberi inputan
+# 💡 Memberi inputan
 Kita harus mengimport sebuah method yaitu ```import java.util.Scanner```
 Penerapan:
 ```
@@ -70,7 +70,7 @@ Nama anda: Andre Firmansyah
 2 // memberikan inputan 2
 Angka: 2
 ```
-# # Operator logika
+# 🧠 Operator Logika
 Di bawah ini merupakan operator logika yang harus kalian ingat:
 
 | Operator | Simbol | Keterangan |
@@ -114,4 +114,56 @@ public class JavaApplication1
   }
 }
 ```
+Hasil:
+```
+false
+true
+false
+true
+true
+false
+true
+false
+```
+# 📘 Operator Matematika di Java
 
+Operator matematika digunakan dalam Java untuk melakukan operasi aritmatika pada variabel numerik.
+
+| Operator | Simbol | Keterangan |
+|----------|--------|------------|
+| Penjumlahan | `+` | Menambahkan dua angka |
+| Pengurangan | `-` | Mengurangi dua angka |
+| Perkalian | `*` | Mengalikan dua angka |
+| Pembagian | `/` | Membagi dua angka |
+| Modulus | `%` | Menghasilkan sisa pembagian |
+| Increment | `++` | Menambah nilai variabel 1 unit |
+| Decrement | `--` | Mengurangi nilai variabel 1 unit |
+
+
+Berikut adalah contoh penggunaan operator matematika di Java:
+
+```
+public class JavaApplication1 {
+    public static void main(String[] args) {
+        int a = 10, b = 5;
+
+        // Operator Aritmatika
+        System.out.println("Penjumlahan: " + (a + b)); // 15
+        System.out.println("Pengurangan: " + (a - b)); // 5
+        System.out.println("Perkalian: " + (a * b)); // 50
+        System.out.println("Pembagian: " + (a / b)); // 2
+        System.out.println("Modulus: " + (a % b)); // 0
+
+        // Increment & Decrement
+        int x = 5;
+        System.out.println("x sebelum increment: " + x); // 5
+        x++; // x = x + 1
+        System.out.println("x setelah increment: " + x); // 6
+
+        int y = 5;
+        System.out.println("y sebelum decrement: " + y); // 5
+        y--; // y = y - 1
+        System.out.println("y setelah decrement: " + y); // 4
+    }
+}
+```
