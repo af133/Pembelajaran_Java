@@ -3,7 +3,7 @@
 Hai, teman-teman! Selamat datang di dunia pemrograman Java! 😃 Di sini kita bakal belajar bareng mulai dari variabel, cara ngasih input, operator logika, sampai operator matematika! Yuk, langsung aja kita mulai! 🚀
 Java is EASYYYY kuyyyy wahahahahahah
 Tapi Boong wahahhahahaha
----
+
 
 ## 🎯 Cara Menampilkan Output
 Di Java, kita bisa mencetak sesuatu ke layar dengan perintah berikut:
