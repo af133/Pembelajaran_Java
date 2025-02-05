@@ -70,7 +70,7 @@ Nama anda: Andre Firmansyah
 2 // memberikan inputan 2
 Angka: 2
 ```
-# Operator logika
+# # Operator logika
 Di bawah ini merupakan operator logika yang harus kalian ingat:
 
 **1. AND ==> &&**
@@ -87,6 +87,41 @@ Di bawah ini merupakan operator logika yang harus kalian ingat:
 
 **7. Kurang dari atau sama dengan ==> <=**
 
+| Operator | Simbol | Keterangan |
+|----------|--------|------------|
+| AND      | `&&`   | True jika kedua kondisi bernilai True |
+| OR       | `||`   | True jika salah satu kondisi bernilai True |
+| NOT      | `!`    | Membalikkan nilai boolean |
+| Lebih dari | `>`  | True jika nilai kiri lebih besar dari kanan |
+| Kurang dari | `<` | True jika nilai kiri lebih kecil dari kanan |
+| Lebih dari atau sama dengan | `>=` | True jika nilai kiri lebih besar atau sama dengan kanan |
+| Kurang dari atau sama dengan | `<=` | True jika nilai kiri lebih kecil atau sama dengan kanan |
+Penerapannya:
+```
+public class JavaApplication1
+{
+  public static main (String [] args)
+  {
+    boolean a = true;
+    boolean b = false;
+  
+    // AND (&&)
+    System.out.println("AND: " + (a && b)); // false
+  
+    // OR (||)
+    System.out.println("OR: " + (a || b)); // true
+  
+    // NOT (!)
+    System.out.println("NOT A: " + (!a)); // false
+    System.out.println("NOT B: " + (!b)); // true
 
-
+    // Operator Perbandingan
+    int x = 10, y = 5;
+    System.out.println("x > y: " + (x > y));  // true
+    System.out.println("x < y: " + (x < y));  // false
+    System.out.println("x >= y: " + (x >= y)); // true
+    System.out.println("x <= y: " + (x <= y)); // false
+  }
+}
+```
 
