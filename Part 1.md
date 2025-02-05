@@ -1,7 +1,8 @@
 # 🚀 Seru-Seruan Belajar Java! 🎉
 
-Hai, teman-teman! Selamat datang di dunia seru pemrograman Java! 😃 Di sini kita bakal belajar bareng mulai dari variabel, cara ngasih input, operator logika, sampai operator matematika! Yuk, langsung aja kita mulai! 🚀
-
+Hai, teman-teman! Selamat datang di dunia pemrograman Java! 😃 Di sini kita bakal belajar bareng mulai dari variabel, cara ngasih input, operator logika, sampai operator matematika! Yuk, langsung aja kita mulai! 🚀
+Java is EASYYYY kuyyyy wahahahahahah
+Tapi Boong wahahhahahaha
 ---
 
 ## 🎯 Cara Menampilkan Output
@@ -21,7 +22,7 @@ public class JavaSeru {
   }
 }
 ```
-
+NOTED: nama projek **JavaSeru**
 Hasilnya:
 ```
 I Love Java!
@@ -31,7 +32,10 @@ I Love Java!
 
 ## 🔹 Variabel: Tempat Nyimpen Data!
 
-Variabel itu kayak kotak penyimpanan di Java. Ada beberapa tipe data yang bisa kita gunakan:
+Variabel itu kayak kotak harta karun yang nyimpen sesuatu yang berharga. 💖✨ Setiap variabel punya tipe data, kayak hati yang cuma bisa diisi perasaan tertentu. Misalnya string, integer, boolean, double, char, dll.
+
+Contohnya:
+
 ```java
 int angka = 2;
 String nama = "Andre Firmansyah";
@@ -96,13 +100,13 @@ Tabel operator logika di Java:
 | Operator | Simbol | Keterangan |
 |----------|--------|------------|
 | AND      | &&  | True jika kedua kondisi true |
-| OR       | ||  | True jika salah satu true |
 | NOT      | !    | Kebalikan nilai boolean |
 | >        | >    | Lebih dari |
 | <        | <    | Kurang dari |
 | >=       | >=   | Lebih dari atau sama |
 | <=       | <=   | Kurang dari atau sama |
-
+ 
+ OR disimbolkan "||" dan  True jika salah satu true 
 Contoh penggunaannya:
 ```java
 public class JavaSeru {
