@@ -1,169 +1,178 @@
-# Varibel, Memberi inputan, Operator Logika, dan Operator Matematika
+# 🚀 Seru-Seruan Belajar Java! 🎉
 
-Untuk menampilkan nilainya sintasknya sebagai berikut:
+Hai, teman-teman! Selamat datang di dunia seru pemrograman Java! 😃 Di sini kita bakal belajar bareng mulai dari variabel, cara ngasih input, operator logika, sampai operator matematika! Yuk, langsung aja kita mulai! 🚀
+
+---
+
+## 🎯 Cara Menampilkan Output
+Di Java, kita bisa mencetak sesuatu ke layar dengan perintah berikut:
+
+```java
+System.out.println("Halo, Dunia!"); // dengan enter
+System.out.print("Halo, Java!"); // tanpa enter
 ```
-System.out.println(); 
-```
-atau
-```
-Systm.out.print();
-```
-Penerapannya:
-```
-public class JavaApplication1 //nama projek JavaApplication1 
-{
-  public static void main (String [] args)
-  {
-    System.outprintln("I Love You")
+
+Contoh penerapannya:
+
+```java
+public class JavaSeru {
+  public static void main(String[] args) {
+    System.out.println("I Love Java!");
   }
 }
 ```
-Hasil:
-```
-I Love You
-```
-# 🔹 Varibel
-tipe_data nama_variable = nilai variable;
 
-Contoh:
+Hasilnya:
 ```
+I Love Java!
+```
+
+---
+
+## 🔹 Variabel: Tempat Nyimpen Data!
+
+Variabel itu kayak kotak penyimpanan di Java. Ada beberapa tipe data yang bisa kita gunakan:
+```java
 int angka = 2;
 String nama = "Andre Firmansyah";
 ```
-Penerapannya:
-```
-public class JavaApplication1 //nama projek JavaApplication1 
-{
-  public static void main (String [] args)
-  {
-    int angka = 2;
-    System.out.println(angka);
-  }
-}
-```
-Hasil:
-```
-2
-```
-# 💡 Memberi inputan
-Kita harus mengimport sebuah method yaitu ```import java.util.Scanner```
-Penerapan:
-```
-import java.util.Scanner
-public class JavaApplication1 //nama projek JavaApplication1 
-{
-  public static void main (String [] args)
-  {
-    Scanner input = new Scanner(System.in);
-    String nama = input.nextLine();
-    System.out.println("Nama anda: " + nama)
 
-    int angka = input.nextint();
-    System.out.println("Angka: " + angka);
+Contoh penggunaannya:
+```java
+public class JavaSeru {
+  public static void main(String[] args) {
+    int angka = 2;
+    System.out.println("Angkaku: " + angka);
   }
 }
 ```
 Hasil:
 ```
-Andre Firmansyah // memberikan inputan Andre Firmansyah
-Nama anda: Andre Firmansyah
-2 // memberikan inputan 2
-Angka: 2
+Angkaku: 2
 ```
-# 🧠 Operator Logika
-Di bawah ini merupakan operator logika yang harus kalian ingat:
+
+---
+
+## 📝 Memberi Inputan (Biar Lebih Interaktif!)
+
+Kita butuh bantuan Scanner untuk menerima input dari user! Jangan lupa import dulu:
+```java
+import java.util.Scanner;
+```
+
+Contohnya:
+```java
+import java.util.Scanner;
+
+public class JavaSeru {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    
+    System.out.print("Masukkan nama: ");
+    String nama = input.nextLine();
+    System.out.println("Halo, " + nama + "!");
+
+    System.out.print("Masukkan angka favorit: ");
+    int angka = input.nextInt();
+    System.out.println("Angka favoritmu adalah " + angka);
+  }
+}
+```
+
+Contoh input dan output:
+```
+Masukkan nama: Andre
+Halo, Andre!
+Masukkan angka favorit: 7
+Angka favoritmu adalah 7
+```
+
+---
+
+## 🤔 Operator Logika: Buat Ngambil Keputusan!
+
+Tabel operator logika di Java:
 
 | Operator | Simbol | Keterangan |
 |----------|--------|------------|
-| AND      | &&  | True jika kedua kondisi bernilai True |
-| NOT      | !    | Membalikkan nilai boolean |
-| Lebih dari | >  | True jika nilai kiri lebih besar dari kanan |
-| Kurang dari | < | True jika nilai kiri lebih kecil dari kanan |
-| Lebih dari atau sama dengan | >= | True jika nilai kiri lebih besar atau sama dengan kanan |
-| Kurang dari atau sama dengan | <= | True jika nilai kiri lebih kecil atau sama dengan kanan |
+| AND      | &&  | True jika kedua kondisi true |
+| OR       | ||  | True jika salah satu true |
+| NOT      | !    | Kebalikan nilai boolean |
+| >        | >    | Lebih dari |
+| <        | <    | Kurang dari |
+| >=       | >=   | Lebih dari atau sama |
+| <=       | <=   | Kurang dari atau sama |
 
-Untuk OR menggunakan || 
-
-OR jika salah satu true maka outputnya true
-
-Penerapannya:
-```
-public class JavaApplication1
-{
-  public static main (String [] args)
-  {
+Contoh penggunaannya:
+```java
+public class JavaSeru {
+  public static void main(String[] args) {
     boolean a = true;
     boolean b = false;
-  
-    // AND (&&)
+    
     System.out.println("AND: " + (a && b)); // false
-  
-    // OR (||)
     System.out.println("OR: " + (a || b)); // true
-  
-    // NOT (!)
     System.out.println("NOT A: " + (!a)); // false
-    System.out.println("NOT B: " + (!b)); // true
-
-    // Operator Perbandingan
-    int x = 10, y = 5;
-    System.out.println("x > y: " + (x > y));  // true
-    System.out.println("x < y: " + (x < y));  // false
-    System.out.println("x >= y: " + (x >= y)); // true
-    System.out.println("x <= y: " + (x <= y)); // false
   }
 }
 ```
+
 Hasil:
 ```
-false
-true
-false
-true
-true
-false
-true
-false
+AND: false
+OR: true
+NOT A: false
 ```
-# 📘 Operator Matematika di Java
 
-Operator matematika digunakan dalam Java untuk melakukan operasi aritmatika pada variabel numerik.
+---
+
+## ➕ Operator Matematika: Hitung-Hitungan Jadi Gampang! 🧮
+
+Berikut adalah beberapa operator matematika yang sering dipakai:
 
 | Operator | Simbol | Keterangan |
 |----------|--------|------------|
-| Penjumlahan | `+` | Menambahkan dua angka |
-| Pengurangan | `-` | Mengurangi dua angka |
-| Perkalian | `*` | Mengalikan dua angka |
-| Pembagian | `/` | Membagi dua angka |
-| Modulus | `%` | Menghasilkan sisa pembagian |
-| Increment | `++` | Menambah nilai variabel 1 unit |
-| Decrement | `--` | Mengurangi nilai variabel 1 unit |
+| Penjumlahan | `+` | Tambah angka |
+| Pengurangan | `-` | Kurangi angka |
+| Perkalian | `*` | Kali angka |
+| Pembagian | `/` | Bagi angka |
+| Modulus | `%` | Sisa pembagian |
+| Increment | `++` | Tambah 1 unit |
+| Decrement | `--` | Kurangi 1 unit |
 
-
-Berikut adalah contoh penggunaan operator matematika di Java:
-
-```
-public class JavaApplication1 {
+Contoh penggunaannya:
+```java
+public class JavaSeru {
     public static void main(String[] args) {
         int a = 10, b = 5;
-
-        // Operator Aritmatika
+        
         System.out.println("Penjumlahan: " + (a + b)); // 15
         System.out.println("Pengurangan: " + (a - b)); // 5
         System.out.println("Perkalian: " + (a * b)); // 50
         System.out.println("Pembagian: " + (a / b)); // 2
         System.out.println("Modulus: " + (a % b)); // 0
-
-        // Increment & Decrement
-        int x = 5;
-        System.out.println("x sebelum increment: " + x); // 5
-        x++; // x = x + 1
-        System.out.println("x setelah increment: " + x); // 6
-
-        int y = 5;
-        System.out.println("y sebelum decrement: " + y); // 5
-        y--; // y = y - 1
-        System.out.println("y setelah decrement: " + y); // 4
     }
 }
 ```
+
+Hasil:
+```
+Penjumlahan: 15
+Pengurangan: 5
+Perkalian: 50
+Pembagian: 2
+Modulus: 0
+```
+
+---
+
+## 🎉 Kesimpulan
+Gimana? Seru kan belajar Java? 😆
+Kita udah bahas:
+✅ Cara menampilkan output
+✅ Variabel dan input dari user
+✅ Operator logika buat pengambilan keputusan
+✅ Operator matematika buat perhitungan
+
+Ayo terus latihan dan eksplorasi biar makin jago! 🔥 Happy coding! 🚀
+
