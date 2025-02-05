@@ -10,6 +10,8 @@ Tapi Boong wahahhahahaha
 ## 🎯 Cara Menampilkan Output
 Di Java, kita bisa mencetak sesuatu ke layar dengan perintah berikut:
 
+NOTED: nama projek **JavaSeru**
+
 ```java
 System.out.println("Halo, Dunia!"); // dengan enter
 System.out.print("Halo, Java!"); // tanpa enter
@@ -24,7 +26,7 @@ public class JavaSeru {
   }
 }
 ```
-NOTED: nama projek **JavaSeru**
+
 Hasilnya:
 ```
 I Love Java!
