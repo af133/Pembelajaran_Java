@@ -83,7 +83,9 @@ Di bawah ini merupakan operator logika yang harus kalian ingat:
 | Kurang dari atau sama dengan | <= | True jika nilai kiri lebih kecil atau sama dengan kanan |
 
 Untuk OR menggunakan || 
+
 OR jika salah satu true maka outputnya true
+
 Penerapannya:
 ```
 public class JavaApplication1
